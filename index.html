@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>swbae's homepage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64917508-2"></script>
@@ -14,11 +15,26 @@
       gtag('config', 'UA-64917508-2');
     </script>
 
+
   </head>
   <body>
-    <h1>swbae's homepage</h1>
+    <h1 class="saw" id="active">swbae's homepage</h1>
+    <div id="grid">
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+      <div id="article">
+        <p>웹 개발 공부용 홈페이지입니다.</p>
+      </div>
+      <p>Cookie</p>
+      <p><script>
+      var cookie = document.cookie;
+      document.write(cookie);
+      </script></p>
+    </div>
 
-    <p>웹 개발 공부용 홈페이지입니다.</p>
     <!-- 댓글 -->
     <div id="disqus_thread"></div>
     <script>
